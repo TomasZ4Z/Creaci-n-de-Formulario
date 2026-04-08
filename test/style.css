@@ -1,9 +1,18 @@
-body{
-margin: 0;
-padding: 5px;
+
+@font-face {
+    font-family: "Norse";
+    src: url("Norse/Norse.woff") format("woff"),
+    url("Norse/Norse.woff2") format("woff2");
 }
 
-.container-image{
+body{
+font-size: 20px;    
+margin: 0;
+padding: 5px;
+font-family: "Norse";
+}
+
+.container-image .image{
 position: relative;    
 width: 40%;
 height: 100vh;  
@@ -14,8 +23,24 @@ width: 100%;
 max-height: 100%;
 }
 
-.content-text{
- position: absolute;   
- top: 538px;
- background-color: rgb(204, 4, 4);   
+.content-text{ 
+ position: absolute;     
+ top: 30%;
+ left: 10%;
+ background-color: rgb(0, 0, 0, 0.5);   
+ display: flex;
+ padding: 15px;
+ 
 }
+
+.decepticon{ 
+ width: 80px;
+ height: 90px;   
+}
+
+.title{
+font-size: 44px;   
+color: aliceblue;
+padding: auto;
+}
+
