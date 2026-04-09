@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'f2 Tecnocratica';
+    src: url('f2Tecnocratica.woff2') format('woff2'),
+        url('f2Tecnocratica.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
