@@ -14,14 +14,14 @@
 body{
 font-size: 20px;    
 margin: 0;
-padding: 5px;
+padding: 0px;
+padding-block: 0px;
+
 
 }
 
 .container-total{
 display: flex;
-
-
 
 }
 
@@ -33,7 +33,7 @@ height: 100vh;
 
 .image {
 width: 100%;   
-max-height: 100%;
+min-height: 100%;
 }
 
 .content-text{ 
@@ -66,10 +66,12 @@ position: absolute;
 top: 97%;
 color: beige;   
 font-size: 15px;
+padding: 0px;
+margin: 0px;
 }
 
 a:hover{
-color: green;
+color: rgb(225, 11, 22);
 }
 
 .paragraph{
@@ -78,8 +80,26 @@ color: green;
  flex-direction: column;
  font-size: 25px;  
  font-family: "Tecnocratico"; 
- color: rgb(175, 9, 9);
- background: url("1morado.jpg");
+ color: rgb(211, 207, 207);
+ 
 }
 
+.content-form-text{
+display: flex;    
+flex-direction: column;
+background: url("morado.jpg");
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
 
+h1{
+  font-size: 27px;  
+  color: rgb(208, 194, 194);
+
+}
+
+label{
+color: rgb(165, 162, 157);    
+display: block;
+}
