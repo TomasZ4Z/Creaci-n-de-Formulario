@@ -102,4 +102,34 @@ h1{
 label{
 color: rgb(165, 162, 157);    
 display: block;
+max-width: 9em;
+}
+
+input{
+min-width: 17em;  
+}
+
+.content-form-total{
+display: flex;  
+flex-direction: column;
+gap: 2em;
+background-color: rgb(0, 0, 0,0.5);
+padding-left: 250px;  
+}
+
+.content-form1,.content-form2,.content-form3{
+display: flex;  
+justify-content: start;
+gap: 6em;
+
+}
+
+.button{
+padding: 20px;  
+font-size: 20px;
+height: 40px;
+}
+
+button{
+font-size: 20px;  
 }
